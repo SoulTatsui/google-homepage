@@ -4,3 +4,32 @@
     padding: 0;
 }
 
+#header {
+    text-align: right;
+    padding: 10px;
+}
+
+#header a {
+    text-decoration: none;
+    color: black;
+}
+
+.gmail {
+    display: inline-block;
+    line-height: 24px;
+    padding-right: 15px;
+    font-size: 13px;
+}
+
+.grafika {
+    display: inline-block;
+    line-height: 24px;
+    padding-right: 15px;
+}
+
+#middle-page {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: ;
+}
