@@ -2,6 +2,7 @@
     top: 0;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #header {
@@ -48,4 +49,21 @@ center {
     line-height: 27px;
     height: 36px;
     font-size: 14px;
+    border-radius: 5px;
+    text-align: center;
+    color: #5F6368;
+}
+
+.button:hover {
+    border: 1px solid rgb(184, 190, 196);
+    color: black;
+}
+
+input {
+
+    padding: 16px 20px;
+    margin: 10px 0;
+    width: 500px;
+    border-radius: 30px;
+    border: 1px solid rgb(184, 190, 196);
 }
