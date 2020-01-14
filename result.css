@@ -126,9 +126,13 @@ a {
     display: flex;
     margin-left: 125px;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .textarea-left {}
+
+.textarea-right {}
+
 
 ol,
 li {
@@ -169,4 +173,34 @@ a:hover {
 
 .bottom-text {
     margin-left: 8px;
+}
+
+.pages-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.pages,
+.numbers {
+    margin-left: 395px;
+
+}
+
+.pages img {
+    height: 40px;
+    padding-top: 20px;
+
+}
+
+.numbers {
+    word-spacing: 8px;
+    width: 100%;
+    margin-left: 410px;
+}
+
+.next-text {
+    margin-left: 90px;
 }
