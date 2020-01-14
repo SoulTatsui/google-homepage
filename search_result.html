@@ -9,11 +9,23 @@
     <link rel="stylesheet" href="result.css">
 </head>
 
-<body>
+<body onload="safaricheck()">
+
+    <script>
+        function back() {
+            window.open("index.html", "_self");
+        }
+
+        function safaricheck() {
+            if (navigator.vendor == "Apple Computer, Inc.") {
+                document.getElementById("jobs").size = "55";
+            }
+        }
+    </script>
 
     <div id="header-container">
         <div class="go-logo">
-            <img src="img/googlelogo_color_272x92dp.png">
+            <img src="img/googlelogo_color_272x92dp.png" onclick="back()">
         </div>
 
         <div class="search-bar">

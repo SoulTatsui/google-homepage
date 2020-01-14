@@ -21,6 +21,7 @@ a {
     padding: 4px 28px 0 30px;
     top: 10px;
     position: relative;
+    cursor: pointer;
 }
 
 .search-bar {
