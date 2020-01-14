@@ -1,47 +1,64 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Google</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>test</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header" >
-        <a href="#" class="gmail">Gmail</a>
-        <a href="#" class="grafika">Grafika</a>
-        <img src="img/menu-bar.png" class="grafika">
-        <img src="#" class="grafika" id="circle">
-    </div>
-<center>
-    <div id="middle-page-image">
-        <img src="img/googlelogo_color_272x92dp.png">
-    </div>
-    <div id="search">
-        <input type="text">
-    </div>
-        <button type="button" value="Szukaj w Google" class="button">Szukaj w Google</button>
-        <button type="button" value="Szczęśliwy traf" class="button">Szczęśliwy traf</button>
-</center>
-
-<div id="footer">
-    <div id="footer-up">
-        <a href="#" class="country">Polska</a>
+    <div class="header-container">
+        <div class="text-right">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <a href="#"><img src="img/google_apps.png"></a>
+            <a href="#" class="profile-picture"><img src="img/avatar.png"></a>
+        </div>
     </div>
 
-    <div id="footer-down">
-        <a href="#" class="country">Reklamuj się</a>
-        <a href="#" class="country">Dla firm</a>
-        <a href="#" class="country">O nas</a>
-        <a href="#" class="country">Jak działa wyszukiwarka</a>
+    <div class="main-container">
 
-        <a href="#" class="text" style="margin-left: 580px;">Prywatność</a>
-        <a href="#" class="text">Warunki</a>
-        <a href="#" class="text">Ustawienia</a>
+        <div class="google-logo">
+            <img src="img/googlelogo_color_272x92dp.png">
+        </div>
+
+        <div class="search-bar">
+            <img src="img/search.png" class="search-icon" style="margin-right: 20px; ">
+            <input type="text" size="75px" value="Steve Jobs" style="border: none; font-size: 13px;">
+            <img src="https://img.icons8.com/color/48/000000/google-logo.png">
+        </div>
+
+        <div class="btn">
+            <input type="button" value="Search in Google" class="input">
+            <input type="button" value="I'm feeling lucky" class="input">
+        </div>
 
     </div>
-</div>
 
+    <div class="foot-container">
+        
+        <div class="footer-first">
+            <span class="country" style="font-size: 15px; margin-left: 8px;">Polska</span>
+        </div>
+
+        <div class="bottom-footer">
+            <span class="bottom-ft">
+                <a href="#" class="bottom-text">Reklamuj się</a>
+                <a href="#" class="bottom-text">Dla firm</a>
+                <a href="#" class="bottom-text">O nas</a>
+                <a href="#" class="bottom-text">Jak działa wyszukiwarka</a>
+            </span>
+
+            <span class="bottom-ft-right">
+                <a href="#" class="bottom-text">Prywatność</a>
+                <a href="#" class="bottom-text">Warunki</a>
+                <a href="#" class="bottom-text">Ustawienia</a>
+            </span>
+        </div>
+
+
+    </div>
+    
 </body>
 </html>
