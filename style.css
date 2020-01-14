@@ -34,13 +34,13 @@ a {
     position: relative;
     top: 7px;
     padding-right: 0px;
-    
+
 }
 
 .profile-picture {
     position: relative;
     top: 10px;
-    
+
 }
 
 .search-bar {
@@ -62,13 +62,12 @@ a {
     top: 10px;
 }
 
-.search-icon {
-}
+.search-icon {}
 
 
 .search-bar:hover {
     border: none;
-    box-shadow: -6px 5px 10px -3px rgba(115,115,115,1);
+    box-shadow: -6px 5px 10px -3px rgba(115, 115, 115, 1);
 }
 
 .google-logo {
@@ -101,7 +100,7 @@ a {
 }
 
 .foot-container {
-    color:rgba(0,0,0,.54);
+    color: rgba(0, 0, 0, .54);
     font-size: 15px;
     width: 100%;
     line-height: 40px;
@@ -112,7 +111,7 @@ a {
 }
 
 .foot-container a {
-    color:rgba(0,0,0,.54);
+    color: rgba(0, 0, 0, .54);
 }
 
 
@@ -121,7 +120,8 @@ a:hover {
     text-decoration: underline;
 }
 
-.footer-first, .bottom-footer {
+.footer-first,
+.bottom-footer {
     padding-left: 27px;
     border-top: 1px solid #ebebeb;
 }

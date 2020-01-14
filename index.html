@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,20 @@
     <title>Google</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body onload="safaricheck()">
     <script>
         function safaricheck() {
 
-        if (navigator.vendor ==  "Apple Computer, Inc.") {
-            document.getElementById("jobs").size = "55";  
-        }
+            if (navigator.vendor == "Apple Computer, Inc.") {
+                document.getElementById("jobs").size = "55";
+            }
 
         }
 
         function load() {
             window.open("search_result.html", "_self");
         }
-        
     </script>
 
     <div class="header-container">
@@ -40,7 +41,7 @@
 
         <div class="search-bar">
             <img src="img/search.png" class="search-icon" style="margin-right: 20px; ">
-            <input type="text" size="75px" value="Steve Jobs" style="border: none; font-size: 13px;" id="jobs">
+            <input type="text" size="75px" value="thinkapple" style="border: none; font-size: 13px;" id="jobs">
             <img src="https://img.icons8.com/color/48/000000/google-logo.png">
         </div>
 
@@ -52,7 +53,7 @@
     </div>
 
     <div class="foot-container">
-        
+
         <div class="footer-first">
             <span class="country" style="font-size: 15px; margin-left: 8px;">Polska</span>
         </div>
@@ -74,7 +75,8 @@
 
 
     </div>
-    
+
 
 </body>
+
 </html>
