@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>test</title>
+    <title>Google</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="safaricheck()">
+    <script>
+        function safaricheck() {
+
+        if (navigator.vendor ==  "Apple Computer, Inc.") {
+            document.getElementById("jobs").size = "55";  
+        }
+
+        }
+        
+    </script>
+
     <div class="header-container">
         <div class="text-right">
             <a href="#">Gmail</a>
@@ -25,7 +36,7 @@
 
         <div class="search-bar">
             <img src="img/search.png" class="search-icon" style="margin-right: 20px; ">
-            <input type="text" size="75px" value="Steve Jobs" style="border: none; font-size: 13px;">
+            <input type="text" size="75px" value="Steve Jobs" style="border: none; font-size: 13px;" id="jobs">
             <img src="https://img.icons8.com/color/48/000000/google-logo.png">
         </div>
 
@@ -60,5 +71,6 @@
 
     </div>
     
+
 </body>
 </html>
