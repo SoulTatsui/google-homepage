@@ -128,11 +128,45 @@ a {
     flex-wrap: wrap;
 }
 
-.textarea-left {
-    list-style: none !important;
-}
+.textarea-left {}
 
 ol,
 li {
     list-style: none !important;
+}
+
+.foot-container {
+    color: rgba(0, 0, 0, .54);
+    font-size: 15px;
+    width: 100%;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ebebeb;
+    bottom: 0;
+
+}
+
+.foot-container a {
+    color: rgba(0, 0, 0, .54);
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer-first,
+.bottom-footer {
+    padding-left: 27px;
+    border-top: 1px solid #ebebeb;
+}
+
+.bottom-ft-right {
+    margin-right: 27px;
+    float: right;
+}
+
+.bottom-text {
+    margin-left: 8px;
 }
